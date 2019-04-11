@@ -3,6 +3,8 @@ from waitress import serve
 from models import lojaOnline
 
 app = Flask(__name__)
+
+# Observação: a loja é uma só para todos os clientes :-(
 loja = lojaOnline()
 
 

@@ -1,4 +1,5 @@
 from flask import Flask, render_template, request, redirect
+from waitress import serve
 from models import lojaOnline
 
 app = Flask(__name__)
@@ -122,4 +123,5 @@ def logout():
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    # app.run(debug=True)
+    serve(app)

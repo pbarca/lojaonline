@@ -123,8 +123,7 @@ def logout():
     loja.reset()
     return redirect('/')
 
-# Teste de Update para o GitHUB
-# Teste de update - Turno 1
+# Teste de update - Turno 2
 
 if __name__ == '__main__':
     # app.run(debug=True)

@@ -124,6 +124,7 @@ def logout():
     return redirect('/')
 
 # Teste de Update para o GitHUB
+# Teste de update - Turno 1
 
 if __name__ == '__main__':
     # app.run(debug=True)
